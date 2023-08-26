@@ -1,8 +1,29 @@
+@charset "UTF-8";
 .main {
   background-color: #000000;
   width: auto;
   height: auto;
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* ширина нового скроллбара */
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* цвет фона у дорожки */
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2) inset; /* тень у дорожки */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 8px; /* скругление углов */
+  border: 3px solid #ffffff; /* толщина, стиль и цвет рамки */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; /* ползунок меняет цвет при наведении */
 }
 
 .piska {
@@ -378,6 +399,14 @@ a:hover {
   width: auto;
   height: 700px;
   background-color: #424242;
+}
+
+.forum {
+  width: auto;
+  height: 700px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background: #3f7e27;
 }
 
 .social {
