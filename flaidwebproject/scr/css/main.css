@@ -19,11 +19,10 @@
 ::-webkit-scrollbar-thumb {
   background: #ffffff;
   border-radius: 8px; /* скругление углов */
-  border: 3px solid #ffffff; /* толщина, стиль и цвет рамки */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffffff; /* ползунок меняет цвет при наведении */
+  background: #acacac; /* ползунок меняет цвет при наведении */
 }
 
 .piska {
