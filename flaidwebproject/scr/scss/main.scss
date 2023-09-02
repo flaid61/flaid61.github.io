@@ -1,8 +1,9 @@
 .main {
     background-color: #000000;
     width: auto;
-    height: auto;
+    height:auto;
     overflow-x: hidden;
+
 }
 
 ::-webkit-scrollbar {
@@ -16,18 +17,18 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ffffff;
+    background: #e35ce7;
     border-radius: 8px; /* скругление углов */
     
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #acacac; /* ползунок меняет цвет при наведении */
+    background: #b218b8; /* ползунок меняет цвет при наведении */
 }
 
 .piska {
     width: auto;
-    height: 41px;
+    height: 39px;
 }
 
 .logo1 {
@@ -40,7 +41,8 @@
 
 .poslepiski {
         width: auto;
-        height: 52px;
+        height: 100px;
+        background-color: #000000;
 }
 
 .info {
@@ -56,7 +58,7 @@
     transform: translate(100px,5px);
     border-radius: 123px 123px 7px 7px;
     position: relative;
-    z-index: 100;
+    z-index: 150;
 }
 
 .fedaria {
@@ -78,7 +80,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    transform: translate(800px,-898px);
+    transform: translate(789px,-885px);
     position: relative;
     z-index: 100;
 }
@@ -86,7 +88,7 @@
     width: 313px;
     height: 474.967px;
     border-radius: 4px 4px 123px 123px;
-    transform: translate(937px,-475px);
+    transform: translate(937px,-473px);
     position: relative;
     z-index: 100;
 }
@@ -138,30 +140,28 @@ a:hover {
 
 .pisda {
     color: #ffffff;
-    width: 280px;
-    font-family: 'Broadway BT', sans-serif;
-    font-size: 20px;
+    width: 215px;
+    font-family: 'Trebuchet MS';
+    font-size: 17.5px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     text-align: justify;
-    transform: translate(420px,-1020px);
-    line-height: 35px;
+    transform: translate(425px,-1960px);
+    line-height: 25px;
     position: relative;
     z-index: 100;
 }
 
 .pisvla {
     color: #ffffff;
-    width: 280px;
-    font-family: 'Broadway BT', sans-serif;
-    font-size: 20px;
+    width: 215px;
+    font-family:'Trebuchet MS';
+    font-size: 17.5px;
     font-style: normal;
-    font-weight: 400px;
-    transform: translate(640px,-1040px);
+    transform: translate(690px,-1980px);
     line-height: normal;
     text-align: justify;
-    line-height: 35px;
+    line-height: 25px;
     position: relative;
     z-index: 100;
 }
@@ -170,21 +170,38 @@ a:hover {
     width: 360.446px;
     height: 263.743px;
     fill: rgba(100, 11, 91, 0.35);
-    transform: translate(0,-1230px);
+    transform: translate(0,-2130px);
 }
 
 .sh2 {
     width: 360.446px;
     height: 263.743px;
     fill: rgba(100, 11, 91, 0.35);
-    transform: translate(350px,-1790px);
+    transform: translate(320px,-2650px);
 }
 
 .sh3 {
     width: 385.602px;
     height: 280.117px;
     fill: rgba(100, 11, 91, 0.35);
-    transform: translate(590px,-1830px);
+    transform: translate(590px,-2700px);
+}
+
+.zadash {
+  width: 300px;
+  height: 474.429px;
+  border-radius: 70px 70px 0px 0px;
+  background: #8E0D8F;
+  z-index: 10000;
+  transform: translate(115px,-1070px)
+}
+
+.zavlad {
+  width: 300px;
+  height: 474.429px;
+  border-radius: 0px 0px 70px 70px;
+  background: #481DAC;
+  transform: translate(915px,-1545px)
 }
 
 .modal {
@@ -210,7 +227,7 @@ a:hover {
     padding: 45px;
     z-index: 1;
     margin: 30px 15px;
-    background-color: white;
+    background-color: #fadfc0;
     border-radius: 20px;
     box-shadow: 0px 0px 17px -7px rgba(34, 60, 80, 0.2);
     transform: scale(0);
@@ -323,9 +340,9 @@ a:hover {
         background-color: transparent;
         color: white;
         position: relative;
-        transform: translate(480px,-710px);
+        transform: translate(424px,-710px);
         z-index: 900;
-        border-radius: 20px;
+        border-radius: 25px;
         border-color: #FFF;
         font-family: 'Broadway BT', sans-serif;
 }
@@ -338,17 +355,81 @@ a:hover {
     background-color: transparent;
     color: white;
     position: relative;
-    transform: translate(573px,-540px);
+    transform: translate(547px,-568px);
     z-index: 900;
-    border-radius: 20px;
+    border-radius: 25px;
     border-color: #FFF;
     font-family: 'Broadway BT', sans-serif;
+}
+
+.vladik {
+    transform: translate(270px,-150px);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 16px;
+}
+.vladik1 {
+    transform: translate(10px,-150px);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 16px;
+}
+.vladik2 {
+    transform: translate(270px,-150px);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 16px;
+}
+.vladik3 {
+    transform: translate(10px,-150px);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 16px;
+}
+.vladik4 {
+    transform: translate(270px,-150px);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.vladay {
+    width: 240px;
+    height: 320px;
+    border-radius: 20px;
+    border: #838383;
+    border-style:dashed;
+    border-width: 5px;
+}
+
+.vladay1 {
+    width: 240px;
+    height: 320px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    border: #838383;
+    border-style:dashed;
+    border-width: 5px;
 }
 
 .dashay {
     width: 480px;
     height: 640px;
     border-radius: 20px;
+    border: #838383;
+    border-style:dashed;
+    border-width: 5px;
+}
+
+.dashay1 {
+    width: 480px;
+    height: 540px;
+    border-radius: 20px;
+    border: #838383;
+    border-style:dashed;
+    border-width: 5px;
 }
 
 .dash {
@@ -359,8 +440,8 @@ a:hover {
 
 .bands {
     width: auto;
-    height: 700px;
-    background-color: #424242;
+    height: 1248px;
+    background-color: #000000;
 }
 
 .forum {
@@ -372,7 +453,7 @@ a:hover {
 
 .social {
     width: auto;
-    height: 487px;
+    height: 489px;
     flex-shrink: 0;
     background: #9832FF;
 }
@@ -385,40 +466,24 @@ a:hover {
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    transform: translate(0,42px)
+    transform: translate(0,42px);
 }
 
 .mi {
-    transform: translate(410px,102px);
-}
-
-.palka1 {
-    transform: translate(400px,-70px);
-    stroke-width: 3px;
-    stroke: #250D3D;
-}
-
-.palka2 {
-    transform: translate(511px,-400px);
-    stroke-width: 3px;
-    stroke: #250D3D;
-}
-
-.palka3 {
-    transform: translate(880px,-403px);
-    stroke-width: 3px;
-    stroke: #250D3D;
+  position: absolute;
+  transform: translate(410px,-202px);
 }
 
 .center__text {
     margin: auto;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 100px;
+    font-family: 'Broadway BT', sans-serif;
+    font-size: 64px;
+    font-weight: 400px;
+    font-style: normal;
     text-transform: uppercase;
     z-index: 1000;
     text-align: center;
-    transform: translate(0,158px);
-    
+    transform: translate(0,-10px);
   }
   
   .glitch {
@@ -474,227 +539,165 @@ a:hover {
     100% { top: -1px; left: -1px; clip: rect(31px, 9999px, 149px, 0) }
   }
 
+.socris {
+  position: absolute;
+  transform: translate(400px,-205px);
+}
 
+.instanad1 {
+  color: #FFF;
+  font-family: 'Broadway BT', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: translate(110px,78px);
+}
 
-  // Variables
+.instalog1 {
+  width: 28px;
+  height: 28.058px;
+  transform: translate(90px,100px);
+}
 
-$orange-light: #fecf4e;
-$orange: #a62a44;
-$orange-dark: #310441;
+.vknad1 {
+  color: #FFF;
+  font-family: 'Broadway BT', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: translate(110px,80px);
+}
 
-$blue-light: #70a27d;
-$blue: #4552a1;
-$blue-dark: #371a6a;
+.vklog1 {
+  width: 28px;
+  height: 28.058px;
+  flex-shrink: 0;
+  transform: translate(90px,100px);
+}
 
-$bg-light: #ee7752;
-$bg-semi: #e73c7e;
-$bg-middle: #23a6d5;
-$bg-dark: #23d5ab;
+.instalog2 {
+  width: 28px;
+  height: 28.058px;
+  flex-shrink: 0;
+  transform: translate(1019px,7px);
+}
 
-.container {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    transform: translate(450px);
-    background: linear-gradient(-45deg, $bg-light, $bg-semi, $bg-middle, $bg-dark);
-    background-size: 400% 400%;
-    animation: daylight 15s ease infinite;
-    border-radius: 50%;
-    
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(black, .3),
-                inset 0 0 0 15px rgba(black, .05),
-                inset 0 0 0 30px rgba(black, .05),
-                inset 0 0 0 45px rgba(black, .05),
-                inset 0 0 0 60px rgba(black, .05),
-                inset 0 0 0 75px rgba(black, .05),
-                inset 0 0 0 90px rgba(black, .05);
-  }
-  
-  .planet {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 2;
-    width: 120px;
-    height: 120px;
-    background: linear-gradient(to bottom, $orange-light 1%, $orange 50%, $orange-dark 100%);
-    border-radius: 50%;
-    transform: rotate(-15deg) translate(-35%, -55%);
-  }
-  
-  @supports not (clip-path: inset(50% 0 0 0)) {
-    .ring-before,
-    .ring-after,
-    .ring-bigger-before,
-    .ring-bigger-after {
-      display: none;
-    }
-  }
-  
-  .ring-before,
-  .ring-after,
-  .ring-bigger-before,
-  .ring-bigger-after {
-    content: "";
-    width: 126px;
-    height: 42px;
-    border-radius: 50%;
-    border: 3px solid rgba(#f8c54d, .8);
-    position: absolute;
-    top: 125px;
-    left: 84px;
-    transform: skew(-54deg);
-  }
-  
-  .ring-bigger-before,
-  .ring-bigger-after {
-    transform: skew(-54deg) scale(1.3);
-    border-color: rgb(211, 188, 104);
-  }
-  
-  .ring-before,
-  .ring-bigger-before {
-    z-index: 3;
-    clip-path: inset(50% 0 0 0);
-  }
-  
-  .ring-after,
-  .ring-bigger-after {
-    z-index: 1;
-    clip-path: inset(0 0 50% 0);
-  }
-  
-  .sub-planet {
-    position: absolute;
-    top: 24%;
-    left: 75%;
-    z-index: 4;
-    width: 35px;
-    height: 35px;
-    background: linear-gradient(to bottom, $blue-light 1%, $blue 50%, $blue-dark 100%);
-    border-radius: 50%;
-    transform: rotate(-15deg);
-  }
-  
-  .orbit {
-    width: 2px;
-    height: 2px;
-    background: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
-  }
-  
-  @for $i from 1 through 6 {
-    
-    .orbit-#{$i} {
-      animation: orbit-#{$i} 5s * $i linear infinite;
-    }
-    
-    @keyframes orbit-#{$i} {
-      from { transform: rotate(0deg) translateX(50px + 15px * $i) rotate(0deg)      }
-      to   { transform: rotate(360deg) translateX(50px + 15px * $i) rotate(-360deg) }
-    } 
-  }
-  
-  .cloud {
-    background: #f1f1f1;
-    width: 100px;
-    height: 30px;
-    position: absolute;
-    border-radius: 50%;
-    bottom: -5px;
-    box-shadow: 0 0 40px rgba(black, .1);
-    
-    &:before,
-    &:after {
-      content: "";
-      background: #f1f1f1;
-      border-radius: 50%;
-      position: absolute;
-    }
-    
-    &:before {
-      width: 50px;
-      height: 50px;
-      bottom: 2px;
-      left: 5px;
-    }
-    
-    &:after {
-      width: 40px;
-      height: 40px;
-      bottom: 2px;
-      right: 15px;
-    }
-  }
-  
-  .cloud-group-1,
-  .cloud-group-2,
-  .cloud-group-3 {
-    position: absolute;
-    bottom: 0;
-    width: 211px;
-    height: 100px;
-    opacity: .2;
-  }
-  
-  .cloud-group-1 {
-    bottom: -5px;
-  }
-  
-  .cloud-group-2 {
-    transform: scale(2);
-    bottom: 20px;
-    left: -50px;
-  }
-  
-  .cloud-group-3 {
-    transform: scale(3);
-    bottom: 100px;
-    left: -24px;
-  }
-  
-  .cloud-2 { left: 10px }
-  .cloud-3 { right: 10px }
-  .cloud-4 { right: 184px; bottom: 0 }
-  .cloud-5 { right: 24px; bottom: 12px }
-  .cloud-6 { right: -45px; bottom: 9 }
-  
-  .star {
-    position: absolute;
-    left: 0;
-    top: 50px;
-    width: 1px;
-    height: 1px;
-    background-color: white;
-    animation: shooting 5s linear infinite;
-    
-    &:before {
-      content: "";
-      position: absolute;
-      width: 100px;
-      height: 1px;
-      right: 1px;
-      top: 0;
-      background: linear-gradient(to right, rgba(black, 0) 0%,rgba(white, .4) 100%);    
-    }
-  }
-  
-  .star-2 { top: 100px; animation: shooting 8s 1s linear infinite }
-  .star-3 { top: 250px; animation: shooting 3s 2s linear infinite }
-  
-  @keyframes daylight {
-    0%   { background-position: 0% 50%   }
-    50%  { background-position: 100% 50% }
-    100% { background-position: 0% 50%   }
-  }
-  
-  @keyframes shooting {
-    from { left: -100px             }
-    to   { left: calc(100% + 100px) }
+.instanad2 {
+  color: #FFF;
+  font-family: 'Broadway BT', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: translate(1040px,-15px);
+}
+
+.vklog2 {
+  width: 28px;
+  height: 28.058px;
+  flex-shrink: 0;
+  transform: translate(1019px,7px);
+}
+
+.vknad2 {
+  width: 28px;
+  height: 28.058px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Broadway BT', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: translate(1040px,-13px);
+}
+
+.sercmesh {
+    transform: translate(684px,-1874px);
+}
+
+.kolya {
+    transform: translate(50px,-5px);
+}
+
+.lesha {
+    transform: translate(400px);
+}
+
+.zadkoli {
+    transform: translate(127px);
+}
+
+.fotokoli {
+    transform: translate(144.5px,-370px);
+}
+
+.nadpkoli {
+    transform: translate(360px,-660px);
+}
+
+.zadleshi {
+    transform: translate(433.66px,-430px);
+}
+
+.fotoleshi {
+    transform: translate(406px,-810px);
+}
+
+.nadleshi {
+    transform: translate(678.42px,-955px);
+}
+
+.zadviki {
+    transform: translate(883.04px,-1455px);
+}
+
+.fotoviki {
+    transform: translate(908px,-1810px);
+}
+
+.nadviki {
+    transform: translate(805px,-2090px);
+}
+
+.tgnad1 {
+  width: 28px;
+  height: 28.058px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: 'Broadway BT', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: translate(110px,-18px);
+}
+
+.tglog1 {
+  width: 28px;
+  height: 28.058px;
+  flex-shrink: 0;
+  transform: translate(90px,4px);
+}
+
+.tgnad2 {
+    width: 28px;
+    height: 28.058px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Broadway BT', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transform: translate(1040px,-75px);
+}
+
+  .tglog2 {
+    width: 28px;
+    height: 28.058px;
+    flex-shrink: 0;
+    transform: translate(1019px,-53px);
   }
