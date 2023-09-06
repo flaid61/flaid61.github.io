@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>F&F snake</title>
+  <title>F&F eat a strawberry</title>
   <link rel="shortcut icon" href="scr/img/logoxsvkl.png">
   <style>
     html,
@@ -76,7 +76,7 @@
       }
       context.fillStyle = 'red';
       context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
-      context.fillStyle = 'green';
+      context.fillStyle = 'pink';
       snake.cells.forEach(function (cell, index) {
         context.fillRect(cell.x, cell.y, grid - 0.7, grid - 0.7);
         if (cell.x === apple.x && cell.y === apple.y) {
